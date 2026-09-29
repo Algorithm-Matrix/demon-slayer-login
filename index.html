@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blade Breathing Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="scene">
+    <div class="orb orb-a"></div><div class="orb orb-b"></div>
+    <section class="login-card" id="card">
+      <p class="eyebrow">KIMETSU // PRIVATE GATE</p>
+      <h1>Blade Breathing</h1>
+      <p class="intro">Focus your breath. Draw the blade.</p>
+      <form id="loginForm">
+        <label>Username<input id="username" type="text" autocomplete="username" placeholder="Enter username" required /></label>
+        <label>Password<input id="password" type="password" autocomplete="current-password" placeholder="Enter password" required /></label>
+        <button type="submit">IGNITE BLADE <span>↗</span></button>
+        <p class="status" id="status" aria-live="polite"></p>
+      </form>
+      <div class="technique"><span id="technique">Water Breathing · First Form</span><i></i></div>
+    </section>
+    <div class="sword-stage" aria-label="Animated sword">
+      <div class="slash slash-one"></div><div class="slash slash-two"></div>
+      <div class="sword"><div class="blade"></div><div class="guard"></div><div class="handle"></div></div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
